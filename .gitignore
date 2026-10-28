@@ -1,0 +1,14 @@
+@"
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.tmp/
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+.vscode/
+*.log
+mlruns/
+"@ | Out-File -Encoding utf8 .gitignore

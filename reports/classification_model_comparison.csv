@@ -1,0 +1,3 @@
+model,validation_accuracy,validation_precision,validation_recall,validation_f1
+LogisticRegression,0.69774,0.6652383502945902,0.6979337771245785,0.6811939668811307
+RandomForestClassifier,0.69574,0.6538356962516993,0.7276303276562635,0.6887620450500215

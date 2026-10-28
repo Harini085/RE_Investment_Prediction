@@ -1,0 +1,34 @@
+{
+  "proxy_only": true,
+  "selection_metric": "validation_f1",
+  "selection_rule": "Highest validation F1; prefer Logistic Regression when within 0.01 F1",
+  "selected_model": "LogisticRegression",
+  "results": [
+    {
+      "model": "LogisticRegression",
+      "validation_accuracy": 0.69774,
+      "validation_precision": 0.6652383502945902,
+      "validation_recall": 0.6979337771245785,
+      "validation_f1": 0.6811939668811307,
+      "run_id": "dac01df7f7024a5ba8f3976a6c840660"
+    },
+    {
+      "model": "RandomForestClassifier",
+      "validation_accuracy": 0.69574,
+      "validation_precision": 0.6538356962516993,
+      "validation_recall": 0.7276303276562635,
+      "validation_f1": 0.6887620450500215,
+      "run_id": "f0fef881f2c746008e31256eb5250f99"
+    }
+  ],
+  "final_test_metrics": {
+    "accuracy": 0.69712,
+    "precision": 0.663114486362894,
+    "recall": 0.7020402870234287,
+    "f1": 0.68202242472599
+  },
+  "class_balance": {
+    "0": 134329,
+    "1": 115671
+  }
+}

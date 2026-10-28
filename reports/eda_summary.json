@@ -1,0 +1,37 @@
+{
+  "source": "data/raw/india_housing_prices.csv",
+  "rows": 250000,
+  "columns": 23,
+  "exact_duplicate_rows": 0,
+  "missing_by_column": {
+    "ID": 0,
+    "State": 0,
+    "City": 0,
+    "Locality": 0,
+    "Property_Type": 0,
+    "BHK": 0,
+    "Size_in_SqFt": 0,
+    "Price_in_Lakhs": 0,
+    "Price_per_SqFt": 0,
+    "Year_Built": 0,
+    "Furnished_Status": 0,
+    "Floor_No": 0,
+    "Total_Floors": 0,
+    "Age_of_Property": 0,
+    "Nearby_Schools": 0,
+    "Nearby_Hospitals": 0,
+    "Public_Transport_Accessibility": 0,
+    "Parking_Space": 0,
+    "Security": 0,
+    "Amenities": 0,
+    "Facing": 0,
+    "Owner_Type": 0,
+    "Availability_Status": 0
+  },
+  "price_lakhs_median": 253.87,
+  "price_lakhs_range": [
+    10.0,
+    500.0
+  ],
+  "cities": 42
+}
